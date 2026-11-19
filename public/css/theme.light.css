@@ -1,0 +1,1 @@
+:root{color-scheme:light}::selection{background:rgba(25,167,160,.2);color:#143d43}input::placeholder,textarea::placeholder{color:#9aaab1}button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid rgba(25,167,160,.28);outline-offset:2px}

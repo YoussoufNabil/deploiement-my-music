@@ -1,0 +1,7 @@
+-- Execute this as the RDS master user after database/schema.sql.
+-- Replace the placeholder with the SAME value configured as Terraform app_db_password.
+-- Do not commit a filled-in copy of this file.
+CREATE USER 'app_user'@'%' IDENTIFIED BY 'REPLACE_WITH_A_UNIQUE_STRONG_APP_PASSWORD';
+GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, ALTER, INDEX
+  ON my_music.* TO 'app_user'@'%';
+FLUSH PRIVILEGES;

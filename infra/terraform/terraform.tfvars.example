@@ -1,0 +1,8 @@
+aws_region        = "us-east-1"
+my_ip             = "203.0.113.10/32" # Remplace par ton IPv4 publique/32 si tu souhaites activer SSH.
+app_allowed_cidr  = ["0.0.0.0/0"]    # À restreindre en dehors d'une démonstration.
+ec2_instance_type = "t3.micro"
+db_instance_class = "db.t3.micro"
+db_username       = "admin"
+db_password       = "CHANGE-ME-USE-A-UNIQUE-STRONG-ADMIN-PASSWORD"
+app_db_password   = "CHANGE-ME-USE-A-DIFFERENT-STRONG-APP-PASSWORD"
