@@ -1,7 +1,5 @@
 # My Music — application de streaming conteneurisée sur AWS
 
-> Reconstruction du projet à partir du rapport « Déploiement d’une application web conteneurisée sur AWS » (37 pages). Le rapport décrit l'architecture, le déploiement et les noms des six tables, mais ne contient pas le code source complet de `server.js`, `schema.sql` ni les fichiers front-end. Cette arborescence fournit donc une implémentation reconstruite, cohérente avec les fonctions et composants documentés ; elle ne prétend pas être la récupération exacte des fichiers perdus.
-
 ## 1. Fonctionnalités reconstruites
 
 - Interface web « My Music » avec recherche, catalogue et lecteur audio.
